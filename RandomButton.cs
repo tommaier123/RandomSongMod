@@ -107,7 +107,6 @@ public class RandomButton : MonoBehaviour
         {
             var temp = UnityEngine.Random.Range(0, LoadedTracks.Count);
             SelectedCallback(temp);
-            log("random" + temp.ToString() + ", " + LoadedTracks.Count.ToString() + Environment.NewLine);
         }
     }
 
